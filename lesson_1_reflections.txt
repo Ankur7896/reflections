@@ -7,7 +7,7 @@ How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
     because it is possible some codes in my older versions are more efficient
-    than newer so if I have access to it I can easily make use of it
+    than newer so if I have access to it I can easily make use of it.
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
