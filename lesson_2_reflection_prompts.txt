@@ -10,16 +10,37 @@ What value do you think it offers?
     is performed in two steps: staging and actual commit. As long as a changeset
     is in the staging area, git allows you to edit it as you like (replace staged
     files with other versions of staged files, remove changes from staging, etc.).
+
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+    after applying the change I add the commit to staging area and then I compare
+    it with the file in the reposiary using git diff --.... command if the change
+    is logical I will save it to the repositary otherwise I donot.
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+    when I want to keep my master commit intact and make some experimental changes
+    to my code  or suppose to convert my website to another language I use branch since
+    they keep the original master files intact.
 
 How do the diagrams help you visualize the branch structure?
+    with the help of diagram we can trace out complete graph of our commits
+    including branches.
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+    When two branches are mergerd together, there ends are combined to form a
+    single commit.
+    Since it is the best way to get feel of merging.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+    Pros:
+    Sometimes there is a conflict that git can't solve itself so manual merging
+    is necessary in that case.
+    Cons:
+    When not necessary manual merging takes extra time and why to do it manually
+    when we can do it automaticaly.
